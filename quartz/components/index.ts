@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import PageLogo from "./PageLogo"
 
 export {
   ArticleTitle,
@@ -28,6 +29,7 @@ export {
   FolderContent,
   Darkmode,
   Head,
+  PageLogo,
   PageTitle,
   ContentMeta,
   Spacer,
