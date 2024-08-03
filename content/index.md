@@ -1,8 +1,7 @@
 ---
-title: Welcome to Quartz
+title: vigonotion.com
 ---
+## Get started here
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-See post: [[Let ChatGPT welcome you home]].
+- [[posts/index|Posts]]
+- [[notes/index|Notes]]

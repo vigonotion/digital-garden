@@ -47,7 +47,7 @@ Go to the settings page for voice assistants:
 
 Create a new assistant (I called mine "Welcome"):
 
-![Screenshot of the "Add assistant" modal](Posts/images/add-assistant.png)
+![Screenshot of the "Add assistant" modal](add-assistant.png)
 
 You'll only have to select the conversation agent, we won't need any of the other options.
 
@@ -108,7 +108,7 @@ I translated my prompt from German into English, so it might be a little rough.
 ## The node-red flow
 
 Our imaginary family consists of four persons: Alice and Bob (parents), Celine and Dylan (children). Here is the node-red flow:
-  ![Node Red flow (source code below)](Posts/images/chatgpt-announce-flow.png)
+  ![Node Red flow (source code below)](chatgpt-announce-flow.png)
 
 The code for the flow can be found in this [gist](https://gist.github.com/vigonotion/3474a6642cbfbe8f6ab208d5efe63399).
 
