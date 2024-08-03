@@ -43,6 +43,7 @@ const PageLogo: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompon
 PageLogo.css = `
 .page-logo {
   margin-right: 10px;
+  color: var(--dark) !important;
 }
 
 .page-logo > svg {
