@@ -20,10 +20,10 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Source Sans Pro",
+        body: "Inter",
         code: "IBM Plex Mono",
       },
       colors: {
