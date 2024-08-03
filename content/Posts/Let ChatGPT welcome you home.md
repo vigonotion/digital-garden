@@ -1,8 +1,5 @@
 ---
-title: Let ChatGPT welcome you home
-slug: chatgpt-announcement
-pubDate: 2024-07-21T16:08:00
-updatedDate: 2024-07-21T16:08:00
+date: 2024-07-21
 tags:
   - homeassistant
   - chatgpt
