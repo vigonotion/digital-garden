@@ -27,7 +27,22 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (f) => (f.relativePath && f.relativePath.includes("posts") && !f.relativePath.includes("index")) ?? false,
+        title: "Recent posts"
+      })
+    ),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (f) => (f.relativePath && !f.relativePath.includes("posts") && !f.relativePath.includes("index")) ?? false,
+        title: "Recent thoughts",
+        limit: 2
+      })
+    )
   ],
   right: [
     Component.Graph(),
