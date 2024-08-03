@@ -6,9 +6,12 @@ tags:
   - ai
   - nodered
   - openai
-excerpt: Using ChatGPT, Home Assistant and Node-RED, I'll show you how to set up an automation that welcomes you home a little different each day.
+description: Using ChatGPT, Home Assistant and Node-RED, I'll show you how to set up an automation that welcomes you home a little different each day.
+title: Let ChatGPT welcome you home
 ---
-Using ChatGPT, Home Assistant and Node-RED, I created an automation that greets me with a different message every day including information about the house and the weather.
+![[Posts/ogs/risograph-image-chatgpt-announcement.png]]
+
+Using ChatGPT, [[Home Assistant]] and [[Node-RED]], I created an automation that greets me with a different message every day including information about the house and the weather.
 
 > Hey there! Welcome home, Celine! It's raining outside. Hopefully, you didn't get wet. Don't forget, tomorrow is a work day again, so make sure to go to bed on time. Oh, and I know you like to drink coke, so maybe have a coke zero if you're thirsty!
 
@@ -29,7 +32,7 @@ The idea on how to do this is as follows:
 
 - create an Assist assistant and use _OpenAI Conversation_ as the conversation agent
 - create a dynamic prompt that can access sensors and other information like weather data
-- call the assist pipeline from node-red when someone comes home with a prompt like "Dylan just came home"
+- call the assist pipeline from [[node-red]] when someone comes home with a prompt like "Dylan just came home"
 - announce the response through the alexa media player integration
 
 This might seem complex, but it is relatively easy to set up.
@@ -105,9 +108,9 @@ If Alice comes home, just inform her that the dishwasher is finished."""]
 
 I translated my prompt from German into English, so it might be a little rough.
 
-## The node-red flow
+## The [[Node-RED]] flow
 
-Our imaginary family consists of four persons: Alice and Bob (parents), Celine and Dylan (children). Here is the node-red flow:
+Our imaginary family consists of four persons: Alice and Bob (parents), Celine and Dylan (children). Here is the [[node-red]] flow:
   ![Node Red flow (source code below)](chatgpt-announce-flow.png)
 
 The code for the flow can be found in this [gist](https://gist.github.com/vigonotion/3474a6642cbfbe8f6ab208d5efe63399).

@@ -1,6 +1,3 @@
----
-title: Legal Disclosure
----
 ## Contact Information
 
 Tom Schneider

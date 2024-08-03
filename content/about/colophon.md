@@ -1,6 +1,3 @@
----
-title: Colophon
----
 Everything I used (except content) for this website.
 
 ## Tech Stack
