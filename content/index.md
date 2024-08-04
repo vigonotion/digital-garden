@@ -5,7 +5,22 @@ Welcome to my digital garden where I mostly write about smart home.
 
 ## Dive in
 
-You can find the most recent blog posts on the left sidebar (if you are on desktop), or [[posts/index|view all posts here]].
+You can find the most recent blog posts on the left sidebar (if you are on desktop), or [[posts/index|view all posts here]]. My newest blog posts are:
+
+<div class="newest-posts">
+
+
+![[chatgpt-announcement.png]]
+
+![[using-tailscale-access-home-assistant-everywhere.png]]
+
+![[diy-ambilight-with-hdmi-2-1-support.png]]
+
+<div id="more">
+View all →
+</div>
+
+</div>
 
 For short thoughts I had, check out the [[notes/index|notes]] and make sure to use the search if you know what you are looking for.
 
